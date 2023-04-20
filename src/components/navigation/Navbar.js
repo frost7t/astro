@@ -13,16 +13,16 @@ export default function Navbar()
       </div>
       <ul className="flex space-x-4">
         <li>
-          <a href="">Landing</a>
+          <a href="#">Landing</a>
         </li>
         <li>
-          <a href="">Pages</a>
+          <a href="#">Pages</a>
         </li>
         <li>
-          <a href="">Widgets</a>
+          <a href="#">Widgets</a>
         </li>
         <li>
-          <a href="">Blog</a>
+          <a href="#">Blog</a>
         </li>
       </ul>
       <div className="flex space-x-8 items-center">

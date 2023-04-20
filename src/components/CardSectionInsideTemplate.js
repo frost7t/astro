@@ -80,19 +80,19 @@ export default function CardSectionInsideTemplate({ img, img2, img3 }) {
             <CardSectionFeatures
               iconName="BsBoxSeam"
               title="Step 1: Download"
-              bgColorIcon=" border border-2 border-blue-900 rounded-full p-2 text-5xl text-[#3141AA] rounded-full p-2 text-2xl"
+              bgColorIcon=" bg-[#3141AA]   border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <CardSectionFeatures
               iconName="IoTextOutline"
               title="Step 2: Add content"
-              bgColorIcon=" border border-2 border-blue-900 rounded-full p-2 text-5xl text-[#3141AA] rounded-full p-2 text-2xl1"
+              bgColorIcon=" bg-[#3141AA]   border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-ful1"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <CardSectionFeatures
               iconName="GiPaintRoller"
               title="Step 3:Customize styles "
-              bgColorIcon="border border-2 border-blue-900 rounded-full p-2 text-5xl text-[#3141AA] rounded-full p-2 text-2xl"
+              bgColorIcon="bg-[#3141AA]  border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <div className="py-5">
