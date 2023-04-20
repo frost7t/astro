@@ -6,7 +6,7 @@ import Btn from "../btn/Btn";
 export default function Navbar()
  {
   return (
-    <nav className="flex justify-between p-8 items-center">
+    <nav className="flex justify-around p-8 items-center">
       <div className="flex space-x-3">
         <img src="img/rocket.png" alt="" className="w-9"/>
         <p>AstrosWind</p>
