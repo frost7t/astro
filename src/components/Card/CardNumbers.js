@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function CardNumbers({title,subtitle}) {
   return (
     <div>

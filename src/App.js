@@ -4,6 +4,7 @@ import SectionFeatures from "./components/SectionFeatures";
 import SectionInsideTemplate from "./components/SectionInsideTemplate";
 import SectionComponents from "./components/SectionComponents";
 import SectionFaq from "./components/SectionFaq";
+import SectionStep from "./components/SectionStep";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <main>
         <SectionFeatures />
         <SectionInsideTemplate />
+        <SectionStep/>
         <SectionComponents />
         <SectionFaq />
       </main>

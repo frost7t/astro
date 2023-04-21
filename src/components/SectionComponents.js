@@ -3,65 +3,29 @@ import TitleSection from "./TitleSection";
 import CardBlog from "./Card/CardBlog";
 import CardImgBlog from "./Card/CardImgBlog";
 import CardSectionComponents from "./Card/CardSectionComponents";
+import { dataCardsComponents } from "../data/dataCardsComponents";
 export default function SectionComponents() {
   return (
     <>
       <>
-        <div className="py-10 px-10 bg-blue-100">
+        <div className="py-20 px-20 bg-blue-100">
           <TitleSection
             title="Components"
             subtitle="Most used widgets"
             description="Provides frequently used components for building websites using Tailwind CSS"
           />
-          <div className="py-5 px-60 w-full">
-            <div className="grid grid-cols-3 gap-8">
+        </div>
+        <div className="flex justify-center p-5 bg-blue-100">
+          <aside className="grid grid-cols-3 gap-4">
+            {dataCardsComponents.map((item, index) => (
               <CardSectionComponents
-                img="img/headers.png"
-                title="Header"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
+                key={index}
+                url_img={item.url_img}
+                title={item.title}
+                description={item.description}
               />
-              <CardSectionComponents
-                img="img/heros.png"
-                title="Heros"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-              <CardSectionComponents
-                img="img/check-list.png"
-                title="Features"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-              <CardSectionComponents
-                img="img/file.png"
-                title="Content"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-              <CardSectionComponents
-                img="img/megaphone.png"
-                title="Call-to-Action"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-              <CardSectionComponents
-                img="img/euro.png"
-                title="Pricing"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-              <CardSectionComponents
-                img="img/chat.png"
-                title="Testimonial"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-              <CardSectionComponents
-                img="img/contact.png"
-                title="Contact"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-              <CardSectionComponents
-                img="img/disposition.png"
-                title="Footers"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur? Impedit tempora repellendus quisquam incidunt sunt aliqui"
-              />
-            </div>
-          </div>
+            ))}
+          </aside>
         </div>
         <div className="py-20 px-9">
           <CardBlog

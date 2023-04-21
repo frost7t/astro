@@ -69,45 +69,6 @@ export default function CardSectionInsideTemplate({ img, img2, img3 }) {
           </div>
         </div>
       </>
-      <div className="py-10 px-20">
-        <div className="text-2xl font-black uppercase max-w-md justify-center mx-auto">
-          <h2>
-            Get your dream website up and running in to no time with Astrowind.
-          </h2>
-        </div>
-        <div className="flex mx-auto justify-center gap-8">
-          <asidestyle>
-            <CardSectionFeatures
-              iconName="BsBoxSeam"
-              title="Step 1: Download"
-              bgColorIcon=" text-[#3151AA] border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
-              description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
-            />
-            <CardSectionFeatures
-              iconName="IoTextOutline"
-              title="Step 2: Add content"
-              bgColorIcon=" text-[#3141AA]   border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-ful1"
-              description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
-            />
-            <CardSectionFeatures
-              iconName="GiPaintRoller"
-              title="Step 3:Customize styles "
-              bgColorIcon="text-[#3141AA]  border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
-              description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
-            />
-            <div className="py-5">
-              <CardSectionFeatures
-                iconName="VscCheck"
-                bgColorIcon="bg-[#3141AA]   border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full "
-                title="Ready !"
-              />
-            </div>
-          </asidestyle>
-          <div className="max-w-sm">
-            <img src="img/4.jpg" className="rounded-lg" alt="image1" />
-          </div>
-        </div>
-      </div>
     </>
   );
 }

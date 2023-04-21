@@ -22,9 +22,10 @@ export default function SectionFeature() {
       </div>
       <div className="flex justify-center p-5">
         <aside className="grid grid-cols-2">
-          {dataCards.map((item) => (
+          {dataCards.map((item,index) => (
             <CardSectionFeatures
-            icons={item.icons}
+            key={index}
+            icon={item.icon}
             title ={item.title}
             description = {item.description}
             />
