@@ -13,17 +13,17 @@ export default function CardSectionInsideTemplate({ img, img2, img3 }) {
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
           </aside>
@@ -35,32 +35,32 @@ export default function CardSectionInsideTemplate({ img, img2, img3 }) {
           <aside className="py-10 ml-5 text-sm">
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               title="Per ei quaeque sensibus"
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               title="Cu imperdiet posidonium sed"
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               title="Nulla omittam sadipscing mel ne"
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               title="Per ei quaeque Sensibus"
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               title="Cu imperdiet posidonium"
             />
             <CardSectionFeatures
               iconName="VscCheck"
-              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4x1"
+              bgColorIcon="bg-[#3141AA] rounded-full p-2 text-4xl"
               title="Nulla omittam sadipscing mel ne"
             />
           </aside>
@@ -80,19 +80,19 @@ export default function CardSectionInsideTemplate({ img, img2, img3 }) {
             <CardSectionFeatures
               iconName="BsBoxSeam"
               title="Step 1: Download"
-              bgColorIcon=" bg-[#3141AA]   border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
+              bgColorIcon=" text-[#3151AA] border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <CardSectionFeatures
               iconName="IoTextOutline"
               title="Step 2: Add content"
-              bgColorIcon=" bg-[#3141AA]   border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-ful1"
+              bgColorIcon=" text-[#3141AA]   border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-ful1"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <CardSectionFeatures
               iconName="GiPaintRoller"
               title="Step 3:Customize styles "
-              bgColorIcon="bg-[#3141AA]  border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
+              bgColorIcon="text-[#3141AA]  border-2 border-blue-900 rounded-full p-2 text-5xl  rounded-full"
               description="A seamless integration between two great frame works that offer high productivity, performance and versatility."
             />
             <div className="py-5">

@@ -1,6 +1,6 @@
 import React from "react";
 import TitleSection from "./TitleSection";
-import CardSectionInsideTemplate from "./CardSectionInsideTemplate";
+import CardSectionInsideTemplate from "./Card/CardSectionInsideTemplate";
 
 export default function SectionInsideTemplate() {
   return (

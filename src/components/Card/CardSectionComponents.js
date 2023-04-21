@@ -3,7 +3,7 @@ export default function CardSectionComponents({title,description,img}) {
   return (
     <div className="bg-white max-w-sm p-4 shadow-2xl mx-auto px-5">
       <div className='flex space-x-3 py-3'>
-        <div className="w-7">
+        <div className="w-8">
           <img src={img} alt="" />
         </div>
         <div className="">

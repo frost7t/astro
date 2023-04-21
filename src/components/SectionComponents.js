@@ -1,13 +1,13 @@
 import React from "react";
 import TitleSection from "./TitleSection";
-import CardBlog from "./CardBlog";
-import CardImgBlog from "./CardImgBlog";
-import CardSectionComponents from "./CardSectionComponents";
+import CardBlog from "./Card/CardBlog";
+import CardImgBlog from "./Card/CardImgBlog";
+import CardSectionComponents from "./Card/CardSectionComponents";
 export default function SectionComponents() {
   return (
     <>
       <>
-        <div className="py-10 px-20 bg-blue-100">
+        <div className="py-10 px-10 bg-blue-100">
           <TitleSection
             title="Components"
             subtitle="Most used widgets"
@@ -63,7 +63,7 @@ export default function SectionComponents() {
             </div>
           </div>
         </div>
-        <div className="py-20 px-20">
+        <div className="py-20 px-9">
           <CardBlog
             title="Find out more content in our Blog"
             description="View all post»"

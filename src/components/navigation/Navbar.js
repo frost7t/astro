@@ -8,7 +8,10 @@ export default function Navbar()
   return (
     <nav className="flex justify-around p-8 items-center">
       <div className="flex space-x-3">
-        <img src="img/rocket.png" alt="" className="w-9"/>
+        <a href="#">
+          {" "}
+          <img src="img/rocket.png" alt="" className="w-9" />
+        </a>
         <p>AstrosWind</p>
       </div>
       <ul className="flex space-x-4">
